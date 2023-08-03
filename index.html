@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Guessing Game</h1>
+
+  <img src="pro2.jpg" alt="numbers">
+
+  <div class="game-container">
+    <div class="input-container">
+      <label for="guessInput">Enter your guess:</label>
+      <input type="number" id="guessInput" placeholder="Enter a number" />
+    </div>
+    <div class="button-container">
+      <button id="guessButton">Guess</button>
+      <button id="hintButton">Hint</button>
+      <button id="resetButton">Reset</button>
+    </div>
+    <p id="feedback"></p>
+    <p id="timer"></p>
+    <div class="difficulty-container">
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty">
+        <option value="1">Easy</option>
+        <option value="2">Medium</option>
+        <option value="3">Hard</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="guessing-game.js"></script>
+</body>
+</html>

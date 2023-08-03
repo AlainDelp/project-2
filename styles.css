@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .box p {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .box {
+      padding: 10px;
+    }
+  
+    .box p {
+      font-size: 1.5em;
+    }
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-container,
+  .button-container,
+  .difficulty-container {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }

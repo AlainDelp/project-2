@@ -1,0 +1,17 @@
+{
+  "srcDir": "js",
+  "srcFiles": ["**/*.js"],
+  "specDir": "spec",
+  "specFiles": [
+    "**/*spec.js"
+  ],
+  "helpers": ["helpers/**/*.js"],
+  "env": {
+    "stopSpecOnExpectationFailure": false,
+    "stopOnSpecFailure": false,
+    "random": false
+  },
+  "browser": {
+    "name": "chrome"
+  }
+}
